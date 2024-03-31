@@ -9,7 +9,7 @@ public class TestCompute {
   Compute c;
 
   @Test
-  public void example() {
+  public void size() {
     MessageQueue mq = mock(MessageQueue.class);
     c = new Compute(mq);
     when(mq.size()).thenReturn(0);
